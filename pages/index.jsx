@@ -18,7 +18,7 @@ export default function Home() {
           transition={{ duration: 0.6 }}
         >
           <Image
-            src="/profile.jpg"
+            src="/images/image.jpg"
             alt="Tameem"
             width={120}
             height={120}
@@ -30,7 +30,7 @@ export default function Home() {
             Passionate about automation, performance, and integrating AI/ML into real-world workflows.
           </p>
           <p className="text-blue-800 italic">“Great software is built with empathy, insight, and relentless curiosity.”</p>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/cv/Tameem_Kunj_CV.pdf" target="_blank" rel="noopener noreferrer">
             <Button className="mt-4 bg-gradient-to-r from-blue-600 to-blue-800 text-white hover:from-blue-700 hover:to-blue-900 rounded-full px-6 py-2 text-lg shadow-lg">
               Download Resume
             </Button>
